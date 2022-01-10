@@ -22,4 +22,4 @@ for root, dirs, files in os.walk(path_of_the_directory):
         if re.search(re_hidden, name):
             print("INFO: File found: ") 
             print(os.path.join(root, name)) 
-            subprocess.run(["python3", script_path + "/markdownTocNoPath.py", os.path.join(root, name)])
+            subprocess.run(["python3", script_path + "/markdownToc.py", os.path.join(root, name)])

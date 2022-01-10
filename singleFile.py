@@ -40,6 +40,6 @@ script_path = os.path.dirname(os.path.abspath(
 print("Script is running from: ")
 print(script_path) 
 
-subprocess.run(["python3", script_path + "/markdownTocNoPath.py",
+subprocess.run(["python3", script_path + "/markdownToc.py",
                 path + file_name])
 
