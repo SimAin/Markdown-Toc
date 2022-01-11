@@ -57,7 +57,7 @@ def remove_toc_elements(lines: List[str]) -> str:
     """
 
     toc_elements = []
-    re_toc = r"^(\ *|\t*)(\d\.|-)\ \[.*\]\(\#.*\)$"
+    re_toc = r"^(\ *|\t*)(\d*\.|-)\ \[.*\]\(\#.*\)$"
     re_toc_header = r"^\#\ (Table\ of\ Contents\ *|TOC*)$"
     toc_cleaned = []
 

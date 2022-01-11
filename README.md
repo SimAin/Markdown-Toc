@@ -15,7 +15,6 @@ The goal of this script is to automate that process.
 
 ## Known issues 
 
-- Script currently repeats TOC elements numbered 10 and greater. Although only at the second level. 
 - Terminal output is currently not very helpful.
 - Script does not handle empty or 'non-standard' files (e.g. placeholder files). 
 - Script does not validate files passed in are markdown files. 
