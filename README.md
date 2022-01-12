@@ -23,7 +23,3 @@ The goal of this script is to automate that process.
 
 - Markdown files are written using vim. The desire is to run the TOC script when a file is written to.  
 
-## References
-
-This script was based of code from the following project:
-https://github.com/CribberSix/markdown-toc-extract
