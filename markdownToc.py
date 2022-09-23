@@ -193,7 +193,8 @@ def main():
     # read file
     file_name = args.file[0]
 
-    print(file_name)
+    #TODO: Add as a verbose option
+    #print(file_name)
 
     if not exists(file_name):
         raise ValueError(f"File " + file_name + " could not be found")
